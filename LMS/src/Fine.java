@@ -1,5 +1,3 @@
-package src.main.java.org.example.group1;
-
 import java.util.Date;
 
 public class Fine {

@@ -1,5 +1,3 @@
-package src.main.java.org.example.group1;
-
 public class Librarian extends Account {
 
     public boolean addBookItem(BookItem bookItem) {
