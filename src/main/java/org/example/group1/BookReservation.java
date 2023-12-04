@@ -8,7 +8,9 @@ public class BookReservation {
     private String bookItemBarcode;
     private String memberId;
 
-    public static BookReservation fetchReservationDetails(String barcode){
+    public static BookReservation fetchReservationDetails(String barcode) {
         return new BookReservation();
-    };
+    }
+
+    ;
 }
