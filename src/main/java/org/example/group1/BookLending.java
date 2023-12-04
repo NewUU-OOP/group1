@@ -3,6 +3,7 @@ package src.main.java.org.example.group1;
 import java.util.Date;
 
 public class BookLending {
+
     private Date creationDate;
     private Date dueDate;
     private Date returnDate;

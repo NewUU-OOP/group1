@@ -11,4 +11,5 @@ public interface Search {
     public List<Book> searchBySubject(String subject);
 
     public List<Book> searchByPubDate(Date publishDate);
+
 }

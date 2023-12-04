@@ -5,6 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public class Catalog implements Search {
+
     private HashMap<String, List<Book>> bookTitles;
     private HashMap<String, List<Book>> bookAuthors;
     private HashMap<String, List<Book>> bookSubjects;

@@ -3,6 +3,7 @@ package src.main.java.org.example.group1;
 import java.util.Date;
 
 public class BookItem extends Book {
+
     private String barcode;
     private boolean isReferenceOnly;
     private Date borrowed;
