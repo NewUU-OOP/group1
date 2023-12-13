@@ -20,6 +20,19 @@ public abstract class Book {
         this.authors = authors;
     }
 
+    @Override
+    public String toString() {
+        return "Book{" +
+                "ISBN='" + ISBN + '\'' +
+                ", title='" + title + '\'' +
+                ", subject='" + subject + '\'' +
+                ", publisher='" + publisher + '\'' +
+                ", language='" + language + '\'' +
+                ", numberOfPages=" + numberOfPages +
+                ", authors=" + authors +
+                '}';
+    }
+
     public String getISBN() {
         return ISBN;
     }
