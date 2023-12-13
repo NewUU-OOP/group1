@@ -10,7 +10,7 @@ public class MainPage extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
             //New comments
-
+            Button button = new Button();
             BorderPane borderPane = new BorderPane();
             Scene scene = new Scene(borderPane,400,450);
             primaryStage.setTitle("Library Management System");
