@@ -10,7 +10,8 @@ public abstract class Book {
     private int numberOfPages;
     private List<Author> authors;
 
-    public Book(String ISBN, String title, String subject, String publisher, String language, int numberOfPages, List<Author> authors) {
+    public Book(String
+                        ISBN, String title, String subject, String publisher, String language, int numberOfPages, List<Author> authors) {
         this.ISBN = ISBN;
         this.title = title;
         this.subject = subject;
